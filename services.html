@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Holistic Counseling Brisbane</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="logo">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 1 10 10c0 5.52-4.48 10-10 10S2 17.52 2 12"/><path d="M12 6v6l4 2"/><circle cx="12" cy="12" r="3"/></svg>
+        Holistic Counseling
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="fees.html">Fees</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+      <button class="btn btn-primary book-now-btn" onclick="openModal()">Book Now</button>
+    </nav>
+  </header>
+
+  <!-- PAGE HEADER -->
+  <section class="section page-hero-simple">
+    <div class="container center-content">
+      <div class="section-label">SERVICES</div>
+      <h1 class="section-title">How I Can Support You</h1>
+      <p class="section-sub">Comprehensive counseling services designed to meet you where you are and guide you towards where you want to be.</p>
+    </div>
+  </section>
+
+  <!-- SERVICE: Individual Counseling -->
+  <section class="section service-detail bg-cream">
+    <div class="container service-row">
+      <div class="service-content">
+        <div class="service-icon-title">
+          <div class="card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h2>Individual Counseling</h2>
+        </div>
+        <p>One-on-one therapy sessions tailored to your unique needs and goals. We work together to explore your thoughts, feelings, and behaviors in a safe, supportive environment.</p>
+        <div class="feature-grid">
+          <div class="feature-item"><span class="check">✓</span> Personalized treatment approach</div>
+          <div class="feature-item"><span class="check">✓</span> Confidential and non-judgmental</div>
+          <div class="feature-item"><span class="check">✓</span> Flexible session scheduling</div>
+          <div class="feature-item"><span class="check">✓</span> Progress tracking and goal setting</div>
+        </div>
+        <button class="btn btn-primary" onclick="openModal()">Book This Service &nbsp;→</button>
+      </div>
+      <div class="service-img-box service-img-heart">
+        <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="#c4a882" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/><path d="M15 9l-6 6M9 9l6 6" stroke="#c4a882" stroke-width="0.4"/></svg>
+        <svg class="sparkle" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#c4a882" stroke-width="1"><path d="M12 2l2.4 7.2L22 12l-7.6 2.8L12 22l-2.4-7.2L2 12l7.6-2.8z"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE: Anxiety Support -->
+  <section class="section service-detail">
+    <div class="container service-row reverse">
+      <div class="service-img-box service-img-brain">
+        <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="#c4a882" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96-.44L5.5 11H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h2.09A2.5 2.5 0 0 1 9.5 2z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96-.44L18.5 11H22a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1h-2.09A2.5 2.5 0 0 0 14.5 2z"/></svg>
+        <svg class="sparkle" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#c4a882" stroke-width="1"><path d="M12 2l2.4 7.2L22 12l-7.6 2.8L12 22l-2.4-7.2L2 12l7.6-2.8z"/></svg>
+      </div>
+      <div class="service-content">
+        <div class="service-icon-title">
+          <div class="card-icon" style="background:#fef3e2;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96-.44L5.5 11H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h2.09A2.5 2.5 0 0 1 9.5 2z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96-.44L18.5 11H22a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1h-2.09A2.5 2.5 0 0 0 14.5 2z"/></svg>
+          </div>
+          <h2>Anxiety Support</h2>
+        </div>
+        <p>Specialized support for managing and overcoming anxiety. Learn evidence-based techniques to understand your anxiety triggers and develop effective coping strategies.</p>
+        <div class="feature-grid">
+          <div class="feature-item"><span class="check">✓</span> Understanding anxiety patterns</div>
+          <div class="feature-item"><span class="check">✓</span> Breathing and relaxation techniques</div>
+          <div class="feature-item"><span class="check">✓</span> Cognitive restructuring</div>
+          <div class="feature-item"><span class="check">✓</span> Building resilience</div>
+        </div>
+        <button class="btn btn-primary" onclick="openModal()">Book This Service &nbsp;→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE: Behavioral Adjustments -->
+  <section class="section service-detail bg-cream">
+    <div class="container service-row">
+      <div class="service-content">
+        <div class="service-icon-title">
+          <div class="card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h2>Behavioral Adjustments</h2>
+        </div>
+        <p>Practical guidance for making positive changes in your life. Whether it's breaking unhelpful habits or building new healthy patterns, I'm here to support your transformation.</p>
+        <div class="feature-grid">
+          <div class="feature-item"><span class="check">✓</span> Habit formation strategies</div>
+          <div class="feature-item"><span class="check">✓</span> Motivation and accountability</div>
+          <div class="feature-item"><span class="check">✓</span> Practical action plans</div>
+          <div class="feature-item"><span class="check">✓</span> Ongoing support and adjustments</div>
+        </div>
+        <button class="btn btn-primary" onclick="openModal()">Book This Service &nbsp;→</button>
+      </div>
+      <div class="service-img-box">
+        <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="#c4a882" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <svg class="sparkle" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#c4a882" stroke-width="1"><path d="M12 2l2.4 7.2L22 12l-7.6 2.8L12 22l-2.4-7.2L2 12l7.6-2.8z"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- AGE GROUPS -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title center">Supporting All Age Groups</h2>
+      <p class="section-sub">My services are available to individuals at every stage of life, from adolescents navigating school challenges to adults managing life transitions.</p>
+      <div class="cards-3">
+        <div class="card">
+          <h3>Adolescents & Teens</h3>
+          <p>Support for school stress, peer relationships, identity exploration, and emotional regulation.</p>
+        </div>
+        <div class="card">
+          <h3>Adults</h3>
+          <p>Help with work-life balance, relationship issues, anxiety management, and personal development.</p>
+        </div>
+        <div class="card">
+          <h3>Older Adults</h3>
+          <p>Guidance through life transitions, retirement adjustments, grief, and maintaining mental wellness.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Not Sure Which Service Is Right for You?</h2>
+      <p>Book a free 15-minute introductory call. We'll discuss your needs and I'll recommend the best approach for your situation.</p>
+      <button class="btn btn-white" onclick="openModal()">Book Free Consultation &nbsp;→</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 1 10 10c0 5.52-4.48 10-10 10S2 17.52 2 12"/><path d="M12 6v6l4 2"/><circle cx="12" cy="12" r="3"/></svg>
+          Holistic Counseling
+        </div>
+        <p>Supporting individuals of all ages through behavioral adjustments, anxiety management, and personal growth in the Brisbane region.</p>
+        <p class="acknowledgement"><em>We acknowledge the Traditional Custodians of the land on which we work and pay our respects to their Elders past, present, and emerging.</em></p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="#" onclick="openModal(); return false;">Book a Session</a></li>
+          <li><a href="fees.html">Fees</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg><a href="tel:0431111777">0431 111 777</a></li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:xyz@holisticconseling.com.au">xyz@holisticconseling.com.au</a></li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Brisbane, Queensland</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 Holistic Counseling. All rights reserved.</p></div>
+  </footer>
+
+  <div class="modal-overlay" id="modalOverlay" onclick="closeModal()">
+    <div class="modal" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal()" aria-label="Close">&times;</button>
+      <iframe src="https://cal.com/neeraj-chawla-v9pyfi" width="100%" height="100%" frameborder="0"></iframe>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Holistic Counseling Brisbane</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="logo">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 1 10 10c0 5.52-4.48 10-10 10S2 17.52 2 12"/><path d="M12 6v6l4 2"/><circle cx="12" cy="12" r="3"/></svg>
+        Holistic Counseling
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="fees.html">Fees</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+      <button class="btn btn-primary book-now-btn" onclick="openModal()">Book Now</button>
+    </nav>
+  </header>
+
+  <!-- ABOUT HERO -->
+  <section class="section page-hero">
+    <div class="container about-grid">
+      <div class="about-img-wrap">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="Neeraj Chawla" class="about-photo" />
+        <div class="about-badge">Brisbane Region</div>
+      </div>
+      <div class="about-text">
+        <div class="section-label">ABOUT ME</div>
+        <h1 class="section-title left" style="font-size:2.8rem;">Neeraj Chawla</h1>
+        <p>I am a dedicated counselor committed to helping individuals of all ages navigate life's challenges and achieve meaningful personal growth. Based in Brisbane, I offer a warm, supportive environment where you can explore your thoughts and feelings without judgment.</p>
+        <p>My holistic approach combines evidence-based therapeutic techniques with genuine empathy and understanding. I believe that everyone has the capacity for positive change, and I'm here to support you on that journey.</p>
+        <button class="btn btn-primary" onclick="openModal()">Book a Session &nbsp;→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREDENTIALS -->
+  <section class="section bg-cream">
+    <div class="container">
+      <div class="section-label center">CREDENTIALS</div>
+      <h2 class="section-title center">Qualifications & Training</h2>
+      <div class="credentials-box">
+        <div class="cred-header">
+          <div class="card-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <div>
+            <h3>Professional Qualifications</h3>
+            <p>[Placeholder for qualifications - Bachelor's/Master's degree in Psychology, Counseling, or related field]</p>
+          </div>
+        </div>
+        <div class="cred-memberships">
+          <h4>Certifications & Memberships</h4>
+          <div class="cred-grid">
+            <ul>
+              <li>[Placeholder - Professional registration]</li>
+              <li>[Placeholder - Certification 2]</li>
+            </ul>
+            <ul>
+              <li>[Placeholder - Certification 1]</li>
+              <li>[Placeholder - Membership]</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPROACH & EXPECT -->
+  <section class="section">
+    <div class="container approach-grid">
+      <div class="approach-col">
+        <div class="approach-icon-wrap">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+        <h3>My Approach</h3>
+        <p>I take a holistic approach to counseling, recognizing that each person is unique and requires an individualized treatment plan. My practice integrates various evidence-based modalities to best serve your needs.</p>
+        <p>Whether you're dealing with anxiety, seeking behavioral change, or simply need someone to talk to, I provide a safe, confidential space for exploration and healing.</p>
+      </div>
+      <div class="approach-col">
+        <div class="approach-icon-wrap">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+        </div>
+        <h3>What to Expect</h3>
+        <ul class="check-list">
+          <li>A warm, non-judgmental environment where you feel heard</li>
+          <li>Confidential sessions tailored to your specific needs</li>
+          <li>Practical strategies you can apply in daily life</li>
+          <li>Regular progress reviews and adjusted goals</li>
+          <li>Support between sessions when needed</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta-light">
+    <div class="container center-content">
+      <h2 class="section-title">Let's Start Your Journey</h2>
+      <p>I'd love to hear from you and learn how I can support your wellbeing. Book a free introductory call to discuss your needs.</p>
+      <button class="btn btn-primary" onclick="openModal()">Book Your Free Consultation &nbsp;→</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 1 10 10c0 5.52-4.48 10-10 10S2 17.52 2 12"/><path d="M12 6v6l4 2"/><circle cx="12" cy="12" r="3"/></svg>
+          Holistic Counseling
+        </div>
+        <p>Supporting individuals of all ages through behavioral adjustments, anxiety management, and personal growth in the Brisbane region.</p>
+        <p class="acknowledgement"><em>We acknowledge the Traditional Custodians of the land on which we work and pay our respects to their Elders past, present, and emerging.</em></p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="#" onclick="openModal(); return false;">Book a Session</a></li>
+          <li><a href="fees.html">Fees</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg>
+            <a href="tel:0431111777">0431 111 777</a>
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:xyz@holisticconseling.com.au">xyz@holisticconseling.com.au</a>
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Brisbane, Queensland
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Holistic Counseling. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="modalOverlay" onclick="closeModal()">
+    <div class="modal" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal()" aria-label="Close">&times;</button>
+      <iframe src="https://cal.com/neeraj-chawla-v9pyfi" width="100%" height="100%" frameborder="0"></iframe>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
