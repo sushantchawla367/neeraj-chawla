@@ -87,7 +87,131 @@ h1, h2, h3, h4 { font-family: 'Lora', serif; font-weight: 500; line-height: 1.2;
 /* =====================
    HEADER / NAV
    ===================== */
-.header {
+/*New chatgpt header nav section. if you remove then make sure you comment all sections below to add uncomment tag */
+/* NAV BASE */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+/* HAMBURGER */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.hamburger span {
+  width: 24px;
+  height: 2px;
+  background: #333;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+
+/* DROPDOWN */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  color: #333;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 120%;
+  left: 0;
+  background: #fff;
+  border-radius: 10px;
+  min-width: 180px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  padding: 8px 0;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.25s ease;
+  z-index: 1000;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-menu a:hover {
+  background: #f5f5f5;
+}
+
+/* SHOW DROPDOWN (DESKTOP HOVER) */
+@media (min-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+/* MOBILE STYLES */
+@media (max-width: 768px) {
+  
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    background: #fff;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  .nav-links.active {
+    max-height: 500px;
+  }
+
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    padding-left: 10px;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+
+  .dropdown.open .dropdown-menu {
+    max-height: 200px;
+  }
+}
+
+
+/* .header {
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 1000;
@@ -139,7 +263,7 @@ h1, h2, h3, h4 { font-family: 'Lora', serif; font-weight: 500; line-height: 1.2;
 
 .book-now-btn { margin-left: 0.5rem; }
 
-/* Hamburger */
+/* Hamburger 
 .hamburger {
   display: none;
   flex-direction: column;
@@ -159,14 +283,14 @@ h1, h2, h3, h4 { font-family: 'Lora', serif; font-weight: 500; line-height: 1.2;
   transition: 0.3s;
 }
 
-/* Dropdown function for the services tab */
+/* Dropdown function for the services tab 
 
-/* Dropdown container */
+/* Dropdown container 
 .dropdown {
   position: relative;
 }
 
-/* Dropdown menu (hidden by default) */
+/* Dropdown menu (hidden by default) 
 .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -183,7 +307,7 @@ h1, h2, h3, h4 { font-family: 'Lora', serif; font-weight: 500; line-height: 1.2;
   z-index: 1000;
 }
 
-/* Dropdown links */
+/* Dropdown links 
 .dropdown-menu li {
   list-style: none;
 }
@@ -197,24 +321,25 @@ h1, h2, h3, h4 { font-family: 'Lora', serif; font-weight: 500; line-height: 1.2;
   transition: background 0.2s ease;
 }
 
-/* Hover effect */
+/* Hover effect 
 .dropdown-menu a:hover {
   background: #f5f5f5;
 }
 
-/* Show dropdown on hover */
+/* Show dropdown on hover 
 .dropdown:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
 }
 
-/* Optional: slight arrow indicator */
+/* Optional: slight arrow indicator 
 .dropdown-toggle::after {
   content: " ▾";
   font-size: 12px;
 }
 
+*/
 /* =====================
    BUTTONS
    ===================== */
