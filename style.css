@@ -539,7 +539,7 @@ h1, h2, h3, h4 { font-family: 'Lora', serif; font-weight: 500; line-height: 1.2;
   align-items: flex-start;
 }
 
-.about-img-wrap { position: relative; }
+.about-img-wrap { position: relative; padding-top:70px;}
 .about-photo {
   border-radius: var(--radius);
   width: 100%;
