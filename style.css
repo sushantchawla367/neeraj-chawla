@@ -69,7 +69,7 @@ h1, h2, h3, h4 { font-family: 'Lora', serif; font-weight: 500; line-height: 1.2;
 }
 
 .section-sub2 {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto 3rem;
   color: var(--text-light);
   text-align: center;
