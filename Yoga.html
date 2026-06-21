@@ -18,13 +18,25 @@
       <button class="hamburger" id="hamburger" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html" class="active">Services</a></li>
-        <li><a href="fees.html">Fees</a></li>
-        <li><a href="resources.html">Resources</a></li>
-      </ul>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+
+      <!-- Dropdown -->
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle">
+          Services 
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="services.html#counseling">Counseling</a></li>
+          <li><a href="services.html#yoga">Yoga Therapy</a></li>
+          <li><a href="services.html#yoga">Community Programs</a></li>
+        </ul>
+      </li>
+
+      <li><a href="fees.html">Fees</a></li>
+      <li><a href="resources.html">Resources</a></li>
+    </ul>
       <button class="btn btn-primary book-now-btn" onclick="openModal()">Book Now</button>
     </nav>
   </header>
